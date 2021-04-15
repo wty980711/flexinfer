@@ -46,7 +46,7 @@ We have tested the following versions of OS and softwares:
 3. Setup
 
 ```shell
-pip install "git+https://github.com/Media-Smart/flexinfer.git"
+pip install "git+https://github.com/wty980711/flexinfer.git"
 ```
 
 ## Usage
