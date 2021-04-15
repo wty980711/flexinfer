@@ -65,6 +65,6 @@ class TRTEngine(Base):
             log_level (string, default is ERROR): tensorrt logger level,
                 INTERNAL_ERROR, ERROR, WARNING, INFO, VERBOSE are support.
         """
-
-        model = load(*args, **kwargs)
+        model = load(*args, kwargs['model'])
+        # model = load(*args, **kwargs)
         super(TRTEngine, self).__init__(model)
